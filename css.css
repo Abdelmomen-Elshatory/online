@@ -1,0 +1,548 @@
+/* Start global */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 1100px;
+    margin: auto;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+/* End Global */
+
+/* Start Header */
+
+.header 
+{
+    background-image: url(images/header-bg.jpg);
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+.header .container .logo img
+{
+    padding-top: 25px
+}
+
+.header .container .logo nav
+{
+    float: right;
+    margin-top: 20px
+}
+
+.header .container .logo nav ul
+{
+    list-style: none;
+}
+
+.header .container .logo nav ul li
+{
+    display: inline;
+}
+
+.header .container .logo nav ul li a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 22px;
+}
+
+.header .container .logo nav ul li a:last-of-type
+{
+    margin-left: 10px
+}
+
+.header .container .containt
+{
+    text-align: center;
+}
+
+.header .container .containt h2
+{
+    margin-top: 150px;
+    font-size: 55px;
+    color: #FFF
+}
+
+.header .container .containt p 
+{
+    font-size: 22px;
+    color: #FFF;
+    width: 731px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.header .container .button 
+{
+    margin-left: 381px;
+    margin-top: 40px;
+}
+
+.header .container .button button
+{
+    width: 170px;
+    height: 60px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer
+}
+
+.header .container .button button:last-of-type
+{
+    margin-left: 20px;
+    background-color: #8be2e5;
+    color: #FFF;
+}
+
+.header .container .radius
+{
+    width: 35px;
+    height: 55px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    margin-left: 549px;
+    margin-top: 85px;
+}
+
+.header .container .radius .scroll
+{
+    width: 5px;
+    height: 10px;
+    background-color: #FFF;
+    margin-left: 45%;
+    margin-top: 5px;
+    animation: scrolling 1s ease-in-out infinite;
+    position: relative;
+}
+
+@keyframes scrolling
+{
+    0%
+    {
+        opacity: 1;
+        top: 5px
+    }
+
+    30%
+    {
+        opacity: .5;
+        top: 10px
+    }
+
+    100%
+    {
+        opacity: 0;
+        top: 25px
+    }
+}
+
+/* End Header */
+
+/* Start Be the first */
+
+.be-the-first
+{
+    background-image: url(images/be-the-first-bg.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.be-the-first .container .be-the-first-containt h2
+{
+    padding-top: 140px;
+    font-size: 45px;
+    color: #FFF
+}
+
+.be-the-first .container .be-the-first-containt p
+{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #FFF
+}
+
+.be-the-first .container .be-the-first-img img
+{
+    width: 400px;
+    height: 560px;
+    margin-top: 20px
+}
+
+/* End Be the first */
+
+/* Start Feature */
+
+.Feature .container .One-Here
+{
+    padding-top: 210px;
+    width: 28%;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Feature .container .One-Here h3
+{
+    margin: 20px 0 ;
+    font-weight: bold;
+    font-size: 25px
+}
+
+.Feature .container .One-Here p
+{
+    font-size: 18px;
+    color: #929496
+}
+
+.Feature .container .One-Here hr
+{
+    padding: 2.5px;
+    border: none;
+}
+
+.Feature .container .One-Here:nth-child(1) hr
+{
+    background-color: #6d3f96
+}
+
+.Feature .container .One-Here:nth-child(2) hr
+{
+    background-color: #70cbce
+}
+
+.Feature .container .One-Here:nth-child(3) hr
+{
+    background-color: #fdc05d
+}
+
+/* End Feature */
+
+/* Start Pricing */
+
+.pricing
+{
+    background-color: #70cbce;
+    height: 800px;
+    margin-top: 100px;
+}
+
+.pricing .container .pricing-containt
+{
+    text-align: center;
+}
+
+.pricing .container .pricing-containt h2
+{
+    padding-top: 120px;
+    font-size: 45px;
+    color: #FFF
+}
+
+.pricing .container .pricing-containt p
+{
+    padding-top: 15px;
+    font-size: 20px;
+    color: #FFF
+}
+
+.pricing .container .pricing-personal
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px
+}
+
+.pricing .container .pricing-personal .personal
+{
+    height: 436px;
+    width: 32%;
+    background-color: #FFF;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    list-style: none;
+    text-align: center;
+    transition: all .5s ease-in-out
+}
+
+.pricing .container .pricing-personal .personal hr
+{
+    opacity: .2;
+}
+
+.pricing .container .pricing-personal .personal:hover
+{
+    margin-top: -10px
+}
+
+.pricing .container .pricing-personal .personal:nth-child(2)
+{
+    margin-top: -30px
+}
+
+.pricing .container .pricing-personal .personal:nth-child(2):hover
+{
+    margin-top: -40px
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(1)
+{
+    background-color: #231f20;
+    width: 100%;
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: #FFF;
+    padding: 17px;
+    text-transform: capitalize;
+    font-size: 25px
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(2)
+{
+    background-color: #231f20;
+    width: 100%;
+    padding: 17px;
+    color: #FFF;
+    font-size: 30px;
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(2):hover
+{
+    background-color: #333
+}
+
+.pricing .container .pricing-personal .personal li small
+{
+    color: #929496
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(3)
+{
+    width: 100%;
+    padding: 17px;
+    color: #929496;
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(4)
+{
+    width: 100%;
+    padding: 17px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(5)
+{
+    width: 100%;
+    padding: 17px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(6)
+{
+    width: 100%;
+    padding: 17px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(7)
+{
+    width: 100%;
+    padding: 17px;
+    color: #70cbce;
+    font-size: 20px
+}
+
+.pricing .container .pricing-personal .personal li:nth-of-type(7):hover
+{
+    background-color: #f5f5f5
+}
+
+/* End Pricing */
+
+/* Start invite */
+
+.invite
+{
+    background-color: #f5f5f5;
+    height: 600px;
+    text-align: center
+}
+
+.invite .container .emil
+{
+    border: 2px solid #70cbce;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-top: 150px
+}
+
+.invite .container .invite-contant h2
+{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.invite .container .invite-contant p
+{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.invite .container .invite-label input
+{
+    width: 300px;;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px
+}
+
+.invite .container .invite-button button
+{   
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #70cbce;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase
+}
+
+/* Start End */
+
+/* Start info */
+
+.info .container hr
+{
+    opacity: .5;
+}
+
+.info .container .info-containt-1
+{
+    display: flex
+}
+
+.info .container .info-containt-1 .info-containt-img
+{
+    width: 20%;
+    float: left;
+}
+
+.info .container .info-containt-1 img
+{
+    margin-top: 100px;
+    margin-left: 200px
+    
+}
+
+.info .container .info-containt-1 .info-containt-contain
+{
+    width: 80%;
+    float: left;
+}
+
+.info .container .info-containt-1 p
+{   
+    margin-top: 100px;
+    margin-left: 135px;
+}
+
+.info .container .info-containt-1 span
+{
+    margin-top: 100px;
+    margin-left: 135px;
+}
+
+.info .container .info-containt-2
+{
+    display: flex
+}
+
+.info .container .info-containt-2 .info-containt-img
+{
+    width: 20%;
+    float: left;
+}
+
+.info .container .info-containt-2 img
+{
+    margin-top: 30px;
+    margin-left: 200px
+    
+}
+
+.info .container .info-containt-2 .info-containt-contain
+{
+    width: 80%;
+    float: left;
+}
+
+.info .container .info-containt-2 p
+{   
+    margin-top: 30px;
+    margin-left: 135px;
+}
+
+.info .container .info-containt-2 span
+{
+    margin-top: 30px;
+    margin-left: 135px;
+}
+
+/* End info */
+
+/* Start Footer */
+
+.footer
+{
+    margin-top: 150px;
+
+}
+
+.footer .container .social 
+{
+    float: left;
+}
+
+.footer .container .social p
+{
+    font-size: 20px;
+}
+
+.footer .container .right 
+{
+    float: right;
+    margin-bottom: 25px
+}
+
+.footer .container .right p
+{
+    font-size: 18px;
+    color: #ccc
+}
+
+/* End Footer */
